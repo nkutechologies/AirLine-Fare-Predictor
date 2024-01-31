@@ -6,9 +6,7 @@ The Airline Fare Prediction project is a Python-based machine learning applicati
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
--  [Usage](#Usage)
-
-
+- [Usage](#usage)
 ## Description
 
 The Airline Fare Prediction project utilizes machine learning algorithms to predict airline fares for different flight itineraries. The application is developed in Python and provides a user-friendly API for fare prediction.
@@ -19,14 +17,22 @@ The Airline Fare Prediction project utilizes machine learning algorithms to pred
 - Machine Learning Model: The core of the application is a machine learning model trained on historical flight data.
 - Deployment: The API is deployed on Postman, making it accessible for users to get fare predictions for their flight details.
 
-## Installation
+ ### Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository
 
 ```bash
-git clone <repository_url>
-
-
+git clone https://github.com/nkutechologies/AirLine-Fare-Predictor.git
+cd PDF_Chatbot
+```
+2. Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+ ### Usage
+```bash
+python app.py
+```
 
 Replace the placeholders (`<airline_name>`, `<departure_time>`, `<arrival_time>`, `<duration>`, `<source_place>`, `<destination_place>`, `<total_stops>`, and `<date>`) with the appropriate values for your prediction.
 
@@ -50,5 +56,3 @@ Feel free to customize the parameter descriptions based on the specific needs of
 
 
 In this example, we added a section called "Parameters" in the README file, where we list the parameters that can be used with the `predict.py` script. We used angle brackets (`< >`) to denote placeholders for the parameter values and provided descriptions for each parameter. Users of your project can then replace the placeholders with actual values when running the prediction.
-
-Remember to replace `your-username` and `your-repo` with your GitHub username and repository name, respectively. Additionally, adjust the filenames (`predict.py` or any other relevant file) and command line arguments based on your project's structure.
